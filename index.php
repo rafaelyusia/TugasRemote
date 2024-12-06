@@ -29,9 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <p style="color: red;"><?= $error; ?></p>
     <?php endif; ?>
     <form method="POST" action="">
-        <label for="username">Username:</label><br>
+        <label for="username">Nama Pengguna:</label><br>
         <input type="text" name="username" id="username" required><br><br>
-        <label for="password">Password:</label><br>
+        <label for="password">Kata Sandi:</label><br>
         <input type="password" name="password" id="password" required><br><br>
         <button type="submit">Login</button>
         <input type="password" name="password" id="password" required><br><br>
